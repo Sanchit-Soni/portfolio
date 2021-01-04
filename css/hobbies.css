@@ -1,0 +1,133 @@
+/* teams section styling */
+.title{
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.text{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+  .hobbies .carousel .card {
+    background: lightgrey;
+    border-radius: 20px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    height: 100%;
+    width: 100%;
+    color:black;
+  }
+  .hobbies .carousel .card:hover {
+    background: crimson;
+  }
+  .hobbies .carousel .card .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+  .hobbies .carousel .card:hover .box {
+    transform: scale(1.05);
+  }
+  .hobbies .carousel .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+  }
+  .hobbies .carousel .card img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 20%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+  }
+  .hobbies .carousel .card:hover img {
+    border-color: #fff;
+  }
+  .owl-dots {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .owl-dot {
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none !important;
+    border-radius: 50%;
+    border: 2px solid crimson !important;
+    transition: all 0.3s ease;
+  }
+  .owl-dot.active {
+    width: 35px;
+    border-radius: 14px;
+  }
+  .owl-dot.active,
+  .owl-dot:hover {
+    background: crimson !important;
+  }
+  
+  .style-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+  @media (max-width: 1104px) {
+    .hobbies .carousel .card {
+        background: whitesmoke;
+        border-radius: 20px;
+        padding: 25px 35px;
+        text-align: center;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        height: 400px;
+        width: 100%;
+        color:black;
+      }
+      .hobbies .carousel .card img {
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+        border-radius: 20%;
+        border: 5px solid crimson;
+        transition: all 0.3s ease;
+      }
+      .title{
+          margin-top: 70px;
+      }
+    }
+
+    @media (max-width: 500px) {
+        .title{
+            margin-top: 50px;
+        }
+        .hobbies .carousel .card {
+            background: whitesmoke;
+            border-radius: 20px;
+            padding: 25px 35px;
+            text-align: center;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            height: 100%;
+            width: 100%;
+            color:black;
+          }
+          .hobbies .carousel .card img {
+            height: 250px;
+            width: 250px;
+            object-fit: cover;
+            border-radius: 20%;
+            border: 5px solid crimson;
+            transition: all 0.3s ease;
+          }
+    }
