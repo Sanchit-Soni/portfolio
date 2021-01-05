@@ -110,7 +110,6 @@ footer {
 /* home section styling */
 .home {
   display: flex;
-  /* background: url("https://wallpaperaccess.com/full/35589.jpg") no-repeat center; */
   background-color: black;
   height: 100vh;
   color: #fff;
@@ -169,8 +168,6 @@ footer {
 .a-link:hover {
   color: crimson;
   background: none;
-}
-.test {
 }
 
 /* about section styling */

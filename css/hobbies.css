@@ -12,7 +12,7 @@
 }
 
 
-  .hobbies .carousel .card {
+.hobbies .carousel .card {
     background: lightgrey;
     border-radius: 20px;
     padding: 25px 35px;
@@ -23,25 +23,25 @@
     width: 100%;
     color:black;
   }
-  .hobbies .carousel .card:hover {
+.hobbies .carousel .card:hover {
     background: crimson;
   }
-  .hobbies .carousel .card .box {
+.hobbies .carousel .card .box {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
   }
-  .hobbies .carousel .card:hover .box {
+.hobbies .carousel .card:hover .box {
     transform: scale(1.05);
   }
-  .hobbies .carousel .card .text {
+.hobbies .carousel .card .text {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
   }
-  .hobbies .carousel .card img {
+.hobbies .carousel .card img {
     height: 300px;
     width: 300px;
     object-fit: cover;
@@ -49,14 +49,14 @@
     border: 5px solid crimson;
     transition: all 0.3s ease;
   }
-  .hobbies .carousel .card:hover img {
+.hobbies .carousel .card:hover img {
     border-color: #fff;
   }
-  .owl-dots {
+.owl-dots {
     text-align: center;
     margin-top: 20px;
   }
-  .owl-dot {
+.owl-dot {
     height: 13px;
     width: 13px;
     margin: 0 5px;
@@ -65,16 +65,16 @@
     border: 2px solid crimson !important;
     transition: all 0.3s ease;
   }
-  .owl-dot.active {
+.owl-dot.active {
     width: 35px;
     border-radius: 14px;
   }
-  .owl-dot.active,
-  .owl-dot:hover {
+.owl-dot.active,
+.owl-dot:hover {
     background: crimson !important;
   }
   
-  .style-footer {
+.style-footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -82,7 +82,7 @@
     z-index: 999;
 }
 
-  @media (max-width: 1104px) {
+@media (max-width: 1104px) {
     .hobbies .carousel .card {
         background: whitesmoke;
         border-radius: 20px;
@@ -107,11 +107,11 @@
       }
     }
 
-    @media (max-width: 500px) {
-        .title{
+@media (max-width: 500px) {
+  .title{
             margin-top: 50px;
         }
-        .hobbies .carousel .card {
+  .hobbies .carousel .card {
             background: whitesmoke;
             border-radius: 20px;
             padding: 25px 35px;
@@ -122,12 +122,12 @@
             width: 100%;
             color:black;
           }
-          .hobbies .carousel .card img {
+.hobbies .carousel .card img {
             height: 250px;
             width: 250px;
             object-fit: cover;
             border-radius: 20%;
             border: 5px solid crimson;
             transition: all 0.3s ease;
-          }
-    }
+        }
+}

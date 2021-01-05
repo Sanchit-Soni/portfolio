@@ -31,9 +31,7 @@
 .row1-right {
   flex: 0.5;
   height: 350px;
-  /* background-image: url("eznews.png"); */
-  /* background-color: white; */
-  /* background-image: url("https://www.brightful.me/content/images/2020/07/david-kovalenko-G85VuTpw6jg-unsplash.jpg"); */
+  
 }
 .row2-left {
   flex: 0.5;
@@ -48,17 +46,12 @@
 
 .row-text {
   padding: 20px;
-  /* margin-left: 20px;
-  margin-top: 20px; */
+  
 }
 .row-text-head {
   margin-top: 30px;
 }
-/* 
-.project1-image {
-  height: 300px;
-  width: 300px;
-} */
+
 .link-project {
   display: inline-block;
   background: crimson;

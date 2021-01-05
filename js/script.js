@@ -4,10 +4,6 @@ $(document).ready(function () {
     if (this.scrollY > 20) {
       $(".navbar").addClass("sticky");
     }
-    // } else {
-    //   $(".navbar").removeClass("sticky");
-    // }
-
     //scroll btn
     if (this.scrollY > 500) {
       $(".scroll-up-btn").addClass("show");
@@ -58,7 +54,6 @@ const navslide = () => {
     //burger animation
     burger.classList.toggle("toggle");
   });
-
   //animate
   // navLinks.forEach((link, index) => {
   //   link.style.animation = `navLinkFade 0.5s ease forwards ${
